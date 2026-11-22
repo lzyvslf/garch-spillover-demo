@@ -1,0 +1,108 @@
+{
+  "pack": "garch-spillover-demo",
+  "seed": 20261122,
+  "n_days_plan": 2000,
+  "n_obs": 2000,
+  "var_lag": 1,
+  "h_step": 10,
+  "toi_pct": 15.37,
+  "persistence": {
+    "EQ_CN": 0.9777,
+    "EQ_US": 0.9593,
+    "CRUDE": 0.9784,
+    "GOLD": 0.9787
+  },
+  "env": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "arch": "9.0.0",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.1"
+  },
+  "generated_at": "2026-11-22 18:44:24",
+  "files": [
+    {
+      "name": "data/synthetic_returns.csv",
+      "bytes": 82008,
+      "sha256": "6f6dcf58749ba5a676ae4ae110defb6520ba7e9768d4a0ff94f5c0e1bfcb474f"
+    },
+    {
+      "name": "output/garch_table.csv",
+      "bytes": 364,
+      "sha256": "324252c7353dfbbcb70fb39a11d648134ae11bd6c29b2091788da01d028cd07e"
+    },
+    {
+      "name": "output/cond_vol_annualized.csv",
+      "bytes": 85993,
+      "sha256": "bb90c2106caeefe9d585085aa6e16b3d6726a679c22072483a94499601560a7c"
+    },
+    {
+      "name": "output/spillover_table.csv",
+      "bytes": 237,
+      "sha256": "d7a6c206ae8ffb9ae2b7b6695beb40c1b363f1033c93dc2b363ec43e284b973c"
+    },
+    {
+      "name": "output/spillover_meta.csv",
+      "bytes": 71,
+      "sha256": "7b4eb0ef29269bf9e24221485cd4f0bda1a4c6d6a72902e602111521f29f8686"
+    },
+    {
+      "name": "output/toi_timeseries.csv",
+      "bytes": 3452,
+      "sha256": "7ffeb7c90d9c77e35f8eacdb690579dfc2dffcf78918000489e90c05d3ddb5a0"
+    },
+    {
+      "name": "output/spillover_heatmap.png",
+      "bytes": 44666,
+      "sha256": "37d1f8e2e210d30faac10a5c85d3a247fc9d7c99861be85c555f11c0c006a4d5"
+    },
+    {
+      "name": "output/vol_timeseries.png",
+      "bytes": 194273,
+      "sha256": "7eec273c9ee230f2149cf2bfce133a042950bb295ef327c30c67aebacd0e72bd"
+    },
+    {
+      "name": "output/toi_timeseries.png",
+      "bytes": 77718,
+      "sha256": "34f3cbbb518f48ecdd6246d01b2a95c646a3bb8ef9c40a2e62d593e10e3f493c"
+    },
+    {
+      "name": "verify.py",
+      "bytes": 2584,
+      "sha256": "27149c9ed17e4303e67365a5eb1f39b81cee1080cdcfb9ab6c1045ddaaacb50d"
+    },
+    {
+      "name": "run_all.py",
+      "bytes": 10728,
+      "sha256": "5a1f4bed5f4392a32990d19b124d035df4f8c850bca54df726f2fc76344cc860"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 239,
+      "sha256": "75ca9e90e7930db989d27bd74f19eaadfbd5414a04cb28bdde6902bc1199709f"
+    },
+    {
+      "name": "src/data_gen.py",
+      "bytes": 2270,
+      "sha256": "e5ab932dab74852979ac61f6fb9800840a6400aafb918c0b10e022e76de852a1"
+    },
+    {
+      "name": "src/garch_model.py",
+      "bytes": 2192,
+      "sha256": "6eebdbbcd05913a7db611989c406689fe953fc7adc12fa9ae777bac8df261c91"
+    },
+    {
+      "name": "src/spillover.py",
+      "bytes": 3964,
+      "sha256": "ca0d63923713699548c346f27ad9537cfa476abf0a9832b2b66648da6b52c2cf"
+    },
+    {
+      "name": "src/plotting.py",
+      "bytes": 2173,
+      "sha256": "0f55e3ccff97b031b7bbb76412e933ae9aed81ae276f6eba2718328d2fda5411"
+    }
+  ]
+}

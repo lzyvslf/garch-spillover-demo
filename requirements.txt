@@ -1,0 +1,8 @@
+# 依赖锁定：版本一变，数值结果的末位可能跟着变。
+# 想完全对齐这个包的 manifest.json，请按下面版本安装。
+numpy==1.26.4
+pandas==3.0.5
+scipy==1.17.1
+arch==9.0.0
+statsmodels==0.15.0
+matplotlib==3.11.1
